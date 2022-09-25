@@ -4,7 +4,7 @@
 def main():
     menu_choice = input("(F)ahrenheit to Celsius\n"
                         "(C)elsius to Fahrenheit\n"
-                        " > ").upper()
+                        " >> ").upper()
     while menu_choice != "Q":
         if menu_choice == "F":
             fahrenheit_input = float(input("Fahrenheit: "))
