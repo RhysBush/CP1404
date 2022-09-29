@@ -1,4 +1,4 @@
-"""PLACEHOLDER"""
+"""Score grading stars"""
 
 
 def main():
@@ -10,11 +10,12 @@ def main():
     while menu_choice != "Q":
         if menu_choice == "G":
             result = grade_user_score(user_score)
+            print(result)
         elif menu_choice == "S":
             result = print_stars(user_score)
+            print(result)
         else:
             print("Incorrect input.")
-        print(result)
         menu_choice = input(f"(G)rading:\n"
                             "(S)tars:\n"
                             "(Q)uit:\n"
