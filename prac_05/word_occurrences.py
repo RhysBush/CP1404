@@ -6,6 +6,7 @@ for word in words:
     word_to_occurrence[word] = frequency + 1
 
 words = list(word_to_occurrence.keys())
+words.sort()
 
 for word in words:
     print(f"{word}: {word_to_occurrence.get(word)}")
