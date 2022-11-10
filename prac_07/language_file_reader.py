@@ -28,7 +28,7 @@ def main():
         reflection = parts[2] == "Yes"
         # Construct a ProgrammingLanguage object using the elements
         # year should be an int
-        is_pointer_arithmetic = parts[4] == 'Yes'
+        is_pointer_arithmetic = parts[2] == 'Yes'
         language = ProgrammingLanguage(parts[0], parts[1], reflection, int(parts[3]), is_pointer_arithmetic)
         # Add the language we've just constructed to the list
         languages.append(language)
