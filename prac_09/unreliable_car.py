@@ -1,6 +1,6 @@
 """
-CP1404/CP5632 Practical
-UnreliableCar class
+CP1404 UnreliableCar class.
+Rhys Bush
 """
 
 from prac_09.car import Car
